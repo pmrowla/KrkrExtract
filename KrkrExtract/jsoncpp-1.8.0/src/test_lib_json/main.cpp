@@ -1817,7 +1817,7 @@ JSONTEST_FIXTURE(ReaderTest, parseWithOneError) {
 JSONTEST_FIXTURE(ReaderTest, parseChineseWithOneError) {
   Json::Reader reader;
   Json::Value root;
-  bool ok = reader.parse("{ \"pr佐藤erty\" :: \"value\" }", root);
+  bool ok = reader.parse("{ \"pr菴占陸erty\" :: \"value\" }", root);
   JSONTEST_ASSERT(!ok);
   JSONTEST_ASSERT(reader.getFormattedErrorMessages() ==
                   "* Line 1, Column 19\n  Syntax error: value, object or array "
@@ -1903,7 +1903,7 @@ JSONTEST_FIXTURE(CharReaderTest, parseChineseWithOneError) {
   JSONCPP_STRING errs;
   Json::Value root;
   char const doc[] =
-      "{ \"pr佐藤erty\" :: \"value\" }";
+      "{ \"pr菴占陸erty\" :: \"value\" }";
   bool ok = reader->parse(
       doc, doc + std::strlen(doc),
       &root, &errs);

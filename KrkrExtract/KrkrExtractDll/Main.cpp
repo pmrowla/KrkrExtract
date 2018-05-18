@@ -315,7 +315,7 @@ void WINAPI HookTVPSetXP3ArchiveExtractionFilter(tTVPXP3ArchiveExtractionFilter 
 typedef iTVPFunctionExporter*   (WINAPI *TVPGetFunctionExporterFunc)();
 TVPGetFunctionExporterFunc pfTVPGetFunctionExporter = nullptr;
 
-//多次调用的
+//锝剁妵锞庯降顤讹緝锝碉緞
 iTVPFunctionExporter* WINAPI HookTVPGetFunctionExporter()
 {
 	iTVPFunctionExporter* Result;

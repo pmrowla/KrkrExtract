@@ -2,7 +2,7 @@
 // Microsoft Visual C++ generated include file.
 // Used by KrkrzUniversalPatch.rc
 
-// 新对象的下一组默认值
+// 锞愶緜锝讹緮锞忣姩锞勶緩锞傦緬锝伙緱榀戯浆锞堬緩锞栵降
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS

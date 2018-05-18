@@ -204,7 +204,7 @@ typedef struct _PRE_DATA
 {
 	HANDLE				hGlobalHeap;
 	LPCWSTR				lpszConfigFileName;
-	LPVOID				lpConfigs;	//���ýṹ
+	LPVOID				lpConfigs;	//ﾅ葷ﾃｽ盪ｹ
 
 	LPVOID				lpMenuFuncs;
 	LPSIMPFUNC_TABLE	lpSimpFunc;

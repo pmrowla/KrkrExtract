@@ -38,7 +38,7 @@ static tjs_int inline TVPWideCharToUtf8(tjs_char in, char * out)
 		MessageBoxW(NULL, TJS_W("UTF-16 to UTF-8"), L"Error", MB_OK);
 	}
 #else
-	// �ȉ��I���W�i���̃R�[�h�����ǁA�ʂ�Ȃ��͂��B
+	// 以下オリジナルのコードだけど、通らないはず。
 	else if (in < (1 << 21))
 	{
 		if (out)
